@@ -27,8 +27,8 @@ class HashTable:
 
     # This method looks up a specific package based on its package_id
     # And returns the package object based on that id
-    # Big O Runtime: O(1)
-    # Big O Space Complexity: O(1)
+    # Average Runtime: O(1) | Worst-case Runtime: O(n)
+    # Space: O(1)
     def lookup(self, package_id):
         # Finds the index of the bucket the package is in
         index = self.hash_function(package_id)

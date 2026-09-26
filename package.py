@@ -1,9 +1,6 @@
 
 
-# This class represents the package in the WGUPS system.  It includes the attributes
-# Required in the rubric.  Every package is initially set to At Hub because it has not
-# Yet left.  Departure time and Delivery time are set to none and updated once the truck
-# leaves the hub and when the package is delivered respectively.
+# Represents a package and tracks its delivery information and status.
 class Package:
     def __init__(self, package_id, address, city, state, zip_code, deadline, weight, notes):
         self.package_id = package_id
@@ -16,7 +13,7 @@ class Package:
         self.notes = notes
         self.truck_id = None
 
-        # delivery tracking
+        # Delivery tracking
         self.status = "At Hub"
         self.departure_time = None
         self.delivery_time = None
