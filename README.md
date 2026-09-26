@@ -66,3 +66,9 @@ python3 main.py
 
 ### Truck Mileage
 ![Truck mileage results](screenshots/truck-mileage.png)
+
+## License
+
+Copyright © 2026 Richard Lee Echevarria. All rights reserved.
+
+This source code is provided for portfolio and demonstration purposes only. No permission is granted to copy, modify, distribute, or use this code without prior written permission from the copyright holder.
